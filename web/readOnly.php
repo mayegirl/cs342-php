@@ -7,8 +7,9 @@
     <body>
         <div>
             <h1>Blog Search</h1>
+           
             <?php
-require "dbConnect.php";
+require "../web/dbConnection.php";
 
 $db = get_db();
 
