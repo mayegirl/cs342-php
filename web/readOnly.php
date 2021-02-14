@@ -1,9 +1,3 @@
-<?php
-require "dbConnect.php";
-
-$db = get_db();
-
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +7,12 @@ $db = get_db();
     <body>
         <div>
             <h1>Blog Search</h1>
+            <?php
+require "dbConnect.php";
+
+$db = get_db();
+
+?>
 <?php
     $statement = $db->prepare("SELECT date, postName, author, genre FROM posts");
     $statement->execute();
