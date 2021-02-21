@@ -6,8 +6,9 @@
     <body>
       <h1> This is take 2</h1>
         <a href="hello.html">Hello page</a>
-        <a href="readOnly.php">readOnly</a>
-          <br>
+        <br>
+        <a href="readOnly.php">My PHP Project</a>
+        <br>
         <?php
         echo "Today is " . date("Y/m/d") . "<br>";
         ?>
